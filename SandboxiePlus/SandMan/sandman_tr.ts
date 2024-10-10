@@ -63,67 +63,67 @@
 <context>
     <name>CAddonManager</name>
     <message>
-        <location filename="AddonManager.cpp" line="160"/>
+        <location filename="AddonManager.cpp" line="155"/>
         <source>Do you want to download and install %1?</source>
         <translation>%1 eklentisini indirmek ve kurmak istiyor musunuz?</translation>
     </message>
     <message>
-        <location filename="AddonManager.cpp" line="166"/>
+        <location filename="AddonManager.cpp" line="161"/>
         <source>Installing: %1</source>
         <translation>Yükleniyor: %1</translation>
     </message>
     <message>
-        <location filename="AddonManager.cpp" line="190"/>
+        <location filename="AddonManager.cpp" line="185"/>
         <source>Add-on not found, please try updating the add-on list in the global settings!</source>
         <translation>Eklenti bulunamadı, lütfen genel ayarlardan eklenti listesini güncellemeyi deneyin!</translation>
     </message>
     <message>
-        <location filename="AddonManager.cpp" line="234"/>
+        <location filename="AddonManager.cpp" line="229"/>
         <source>Add-on Not Found</source>
         <translation>Eklenti Bulunamadı</translation>
     </message>
     <message>
-        <location filename="AddonManager.cpp" line="235"/>
+        <location filename="AddonManager.cpp" line="230"/>
         <source>Add-on is not available for this platform</source>
         <translation>Eklenti bu platform için mevcut değil</translation>
     </message>
     <message>
-        <location filename="AddonManager.cpp" line="236"/>
+        <location filename="AddonManager.cpp" line="231"/>
         <source>Missing installation instructions</source>
         <translation>Kurulum talimatları eksik</translation>
     </message>
     <message>
-        <location filename="AddonManager.cpp" line="237"/>
+        <location filename="AddonManager.cpp" line="232"/>
         <source>Executing add-on setup failed</source>
         <translation>Eklenti kurulumu yürütülemedi</translation>
     </message>
     <message>
-        <location filename="AddonManager.cpp" line="238"/>
+        <location filename="AddonManager.cpp" line="233"/>
         <source>Failed to delete a file during add-on removal</source>
         <translation>Eklenti kaldırma işlemi sırasında bir dosya silinemedi</translation>
     </message>
     <message>
-        <location filename="AddonManager.cpp" line="252"/>
+        <location filename="AddonManager.cpp" line="247"/>
         <source>Updater failed to perform add-on operation</source>
         <translation>Güncelleyici, eklenti işlemini gerçekleştiremedi</translation>
     </message>
     <message>
-        <location filename="AddonManager.cpp" line="254"/>
+        <location filename="AddonManager.cpp" line="249"/>
         <source>Updater failed to perform add-on operation, error: %1</source>
         <translation>Güncelleyici, eklenti işlemini gerçekleştiremedi, hata: %1</translation>
     </message>
     <message>
-        <location filename="AddonManager.cpp" line="174"/>
+        <location filename="AddonManager.cpp" line="169"/>
         <source>Do you want to remove %1?</source>
         <translation>%1 eklentisini kaldırmak istiyor musunuz?</translation>
     </message>
     <message>
-        <location filename="AddonManager.cpp" line="180"/>
+        <location filename="AddonManager.cpp" line="175"/>
         <source>Removing: %1</source>
         <translation>Kaldırılıyor: %1</translation>
     </message>
     <message>
-        <location filename="AddonManager.cpp" line="214"/>
+        <location filename="AddonManager.cpp" line="209"/>
         <source>Add-on not found!</source>
         <translation>Eklenti bulunamadı!</translation>
     </message>
@@ -336,17 +336,17 @@ To disable this template for a sandbox, simply uncheck it in the template list.<
         <translation>Arşivi içe aktarmak için parolayı girin:</translation>
     </message>
     <message>
-        <location filename="Windows/BoxImageWindow.cpp" line="126"/>
+        <location filename="Windows/BoxImageWindow.cpp" line="129"/>
         <source>kilobytes (%1)</source>
         <translation>kilobayt (%1)</translation>
     </message>
     <message>
-        <location filename="Windows/BoxImageWindow.cpp" line="137"/>
+        <location filename="Windows/BoxImageWindow.cpp" line="140"/>
         <source>Passwords don&apos;t match!!!</source>
         <translation>Parolalar eşleşmiyor!</translation>
     </message>
     <message>
-        <location filename="Windows/BoxImageWindow.cpp" line="141"/>
+        <location filename="Windows/BoxImageWindow.cpp" line="144"/>
         <source>WARNING: Short passwords are easy to crack using brute force techniques!
 
 It is recommended to choose a password consisting of 20 or more characters. Are you sure you want to use a short password?</source>
@@ -354,7 +354,7 @@ It is recommended to choose a password consisting of 20 or more characters. Are 
 20 veya daha fazla karakterden oluşan bir parola belirlemeniz önerilir. Kısa bir parola kullanmak istediğinizden emin misiniz?</translation>
     </message>
     <message>
-        <location filename="Windows/BoxImageWindow.cpp" line="147"/>
+        <location filename="Windows/BoxImageWindow.cpp" line="150"/>
         <source>The password is constrained to a maximum length of 128 characters. 
 This length permits approximately 384 bits of entropy with a passphrase composed of actual English words, 
 increases to 512 bits with the application of Leet (L337) speak modifications, and exceeds 768 bits when composed of entirely random printable ASCII characters.</source>
@@ -363,7 +363,7 @@ Bu uzunluk, gerçek İngilizce kelimelerden oluşan bir parola ile yaklaşık 38
 Leet (L337) Konuşma değişikliklerinin uygulanmasıyla 512 bit&apos;e çıkar ve tamamen rastgele yazdırılabilir ASCII karakterlerden oluşursa 768 biti aşar.</translation>
     </message>
     <message>
-        <location filename="Windows/BoxImageWindow.cpp" line="164"/>
+        <location filename="Windows/BoxImageWindow.cpp" line="167"/>
         <source>The Box Disk Image must be at least 256 MB in size, 2GB are recommended.</source>
         <translation>Alan Disk Görüntüsünün boyutu en az 256 MB olmalıdır, 2 GB önerilir.</translation>
     </message>
@@ -5099,10 +5099,6 @@ Lütfen Sandboxie için bir güncelleme olup olmadığını kontrol edin.</trans
         <translation>Girişleri hareket ettir (negatif değerler yukarı, pozitif değerler aşağı hareket eder):</translation>
     </message>
     <message>
-        <source>7-zip Archive (*.7z);;Zip Archive (*.zip)</source>
-        <translation type="vanished">7-Zip Arşivi (*.7z);;Zip Arşivi (*.zip)</translation>
-    </message>
-    <message>
         <location filename="Views/SbieView.cpp" line="1058"/>
         <source>Failed to open archive, wrong password?</source>
         <translation>Arşiv açılamadı, yanlış parola mı?</translation>
@@ -5111,18 +5107,6 @@ Lütfen Sandboxie için bir güncelleme olup olmadığını kontrol edin.</trans
         <location filename="Views/SbieView.cpp" line="1067"/>
         <source>Failed to open archive (%1)!</source>
         <translation>Arşiv açılamadı (%1)!</translation>
-    </message>
-    <message>
-        <source>This name is already in use, please select an alternative box name</source>
-        <translation type="vanished">Bu ad zaten kullanılıyor, lütfen alan için alternatif bir ad seçin</translation>
-    </message>
-    <message>
-        <source>Importing Sandbox</source>
-        <translation type="vanished">Korumalı Alan İçe Aktarılıyor</translation>
-    </message>
-    <message>
-        <source>Do you want to select custom root folder?</source>
-        <translation type="vanished">Özel bir kök klasör seçmek ister misiniz?</translation>
     </message>
     <message>
         <location filename="Views/SbieView.cpp" line="1110"/>
@@ -6801,17 +6785,12 @@ If you are a Great Supporter on Patreon already, Sandboxie can check online for 
     <message>
         <location filename="Forms/CompressDialog.ui" line="51"/>
         <source>Create Solide Archive</source>
-        <translation>Katı arşiv oluştur</translation>
+        <translation>Katı Arşiv Oluştur</translation>
     </message>
     <message>
         <location filename="Forms/CompressDialog.ui" line="75"/>
         <source>Export Sandbox to an archive, choose your compression rate and customize additional compression settings.</source>
-        <oldsource>Export Sandbox to a archive, Choose Your Compression Rate and Customize Additional Compression Settings.</oldsource>
-        <translation type="unfinished">Korumalı alanı bir arşive aktarmadan önce sıkıştırma düzeyini seçebilir ve ek sıkıştırma ayarlarını özelleştirebilirsiniz.</translation>
-    </message>
-    <message>
-        <source>Export Sandbox to a 7z or Zip archive, Choose Your Compression Rate and Customize Additional Compression Settings.</source>
-        <translation type="vanished">Korumalı alanı 7-Zip veya Zip arşivine aktarmadan önce sıkıştırma düzeyini seçebilir ve ek sıkıştırma ayarlarını özelleştirebilirsiniz.</translation>
+        <translation>Korumalı alanı bir arşive aktarmadan önce sıkıştırma düzeyini seçebilir ve ek sıkıştırma ayarlarını özelleştirebilirsiniz.</translation>
     </message>
 </context>
 <context>
@@ -6824,8 +6803,7 @@ If you are a Great Supporter on Patreon already, Sandboxie can check online for 
     <message>
         <location filename="Forms/ExtractDialog.ui" line="53"/>
         <source>Import Sandbox from an archive</source>
-        <oldsource>Export Sandbox from an archive</oldsource>
-        <translation type="unfinished">Korumalı alanı bir arşivden içe aktarın</translation>
+        <translation>Korumalı alanı bir arşivden içe aktarın</translation>
     </message>
     <message>
         <location filename="Forms/ExtractDialog.ui" line="46"/>
@@ -6845,7 +6823,7 @@ If you are a Great Supporter on Patreon already, Sandboxie can check online for 
     <message>
         <location filename="Forms/ExtractDialog.ui" line="76"/>
         <source>Import without encryption</source>
-        <translation type="unfinished"></translation>
+        <translation>Şifreleme olmadan içe aktar</translation>
     </message>
 </context>
 <context>
@@ -7685,7 +7663,7 @@ Not: Bir korumalı alana ilişkin Zorunlu Programlar ve Zorunlu Klasörler ayarl
     <message>
         <location filename="Forms/OptionsWindow.ui" line="1426"/>
         <source>Protect processes within this box from host processes</source>
-        <translation>Bu alandaki işlemleri ana sistemdeki işlemlerinden koru</translation>
+        <translation>Bu alandaki işlemleri ana sistemdeki işlemlerden koru</translation>
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="1396"/>
